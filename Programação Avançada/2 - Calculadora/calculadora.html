@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" contend="ie-edge">
+		<title>Calculadora </title>
+		<link rel="stylesheet" href="assets/css/style.css">
+	</head>
+	<body>
+		<h1>Calculadora</h1>
+		<section class="content-center">
+			<form name="calcform">
+				<div>
+					<input id="visor" type="text" onclick="">
+				</div>
+				<div >
+					<input class="num" name="num9" id="7" type="button" value="7" onclick="calcNum(7)">
+					<input class="num" name="num8" id="8" type="button" value="8" onclick="calcNum(8)">
+					<input class="num" name="num7" id="9" type="button" value="9" onclick="calcNum(9)">
+					<input class="oper" name="somar" id="+" type="button" value="+"onclick="calcParse('somar')">
+				</div>
+				<div>
+					<input class="num" name="num4" id="4" type="button" value="4" onclick="calcNum(4)">
+					<input class="num" name="num5" id="5" type="button" value="5" onclick="calcNum(5)">
+					<input class="num" name="num6" id="6" type="button" value="6" onclick="calcNum(6)">
+					<input class="oper" name="subtrair" id="-" type="button" value="-" onclick="calcParse('subtrair')">
+				</div>
+				<div>
+					<input class="num" name="num1" id="1" type="button" value="1" onclick="calcNum(1)">
+					<input class="num" name="num2" id="2" type="button" value="2" onclick="calcNum(2)">
+					<input class="num" name="num3" id="3" type="button" value="3" onclick="calcNum(3)">
+					<input class="oper" name="multiplicar" id="x" type="button" value="*" onclick="calcParse('nultiplicar')">
+				</div>
+				<div>
+					<input class="num" name="num0" id="0" type="button" value="0" onclick="calcNum(0)">
+					<input class="num" name="igual" id="resultado" type="button" value="=" onclick="calcParse('resultado')">
+					<input class="num" name="limpar" id="CE" type="button" value="CE" onclick="calcLimpar()" >
+					<input class="oper" name="dividir" id="/" type="button" value="/" onclick="calcParse('dividir')">
+				</div>
+			</form>
+		</section>
+		<h3>Discente: Vitor Lima Costa Neto</h3>
+		<script src="assets/js/script.js"></script>
+	</body>
+</html>
